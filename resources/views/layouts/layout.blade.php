@@ -15,6 +15,7 @@
     
     <!-- Theme CSS -->
     <link rel="stylesheet" href="{{ asset('assets/css/theme.bundle.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/home.css') }}">
     
     <!-- Title -->
     <title>@yield('title', 'Default Title')</title>
@@ -24,7 +25,7 @@
     @include('layouts.header')
 
     <!-- Main Content -->
-    <div class="container">
+    <div>
         @yield('content')
     </div>
 
