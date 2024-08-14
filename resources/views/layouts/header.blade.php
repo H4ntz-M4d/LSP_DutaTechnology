@@ -36,10 +36,10 @@
                   <a class="dropdown-item" href="./visi-misi.html">
                     Visi, Misi, dan Sasaran Mutu
                   </a>
-                  <a class="dropdown-item" href="./struk-organisasi.html">
+                  <a class="dropdown-item" href="/profil/struktur-organisasi">
                     Struktur Organisasi
                   </a>
-                  <a class="dropdown-item" href="./ekosistem.html">
+                  <a class="dropdown-item" href="/profil/ekosistem-lspta">
                     Ekosistem LSP
                   </a>
                 </ul>
@@ -49,10 +49,10 @@
                   Sertifikasi
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarSertikasi">
-                  <a class="dropdown-item" href="./alur-uji.html">
+                  <a class="dropdown-item" href="/sertifikasi/alur-uji-dan-skema-sertifikasi">
                     Alur Uji dan Skema
                   </a>
-                  <a class="dropdown-item" href="./tentang-lsp.html">
+                  <a class="dropdown-item" href="/sertifikasi/skkni">
                     SKKNI
                   </a>
                   <a class="dropdown-item" href="./skema-sertif.html">
