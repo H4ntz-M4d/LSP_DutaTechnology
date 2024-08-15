@@ -25,3 +25,11 @@ Route::get('/sertifikasi/skkni', function () {
 Route::get('/sertifikasi/skema-sertifikasi', function () {
     return view('sertifikasi.skema-sertifikasi');
 });
+
+Route::get('/login', function () {
+    return view('akun.login');
+});
+
+Route::get('/forget-password', function () {
+    return view('akun.forget-password');
+});
