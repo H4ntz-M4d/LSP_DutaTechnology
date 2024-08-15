@@ -22,15 +22,20 @@
       
             <!-- Navigation -->
             <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" id="navbarLandings"  href="/home" aria-haspopup="true" aria-expanded="false">
+                  Home
+                </a>
+              </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" id="navbarLandings" data-bs-toggle="dropdown" href="#" aria-haspopup="true" aria-expanded="false">
                   Profil
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarProfile">
-                  <a class="dropdown-item" href="./sambutan-direktur.html">
+                  <a class="dropdown-item" href="/profil/sambutan-direktur">
                     Sambutan Direktur
                   </a>
-                  <a class="dropdown-item" href="./tentang-lsp.html">
+                  <a class="dropdown-item" href="/profil/tentang-lsp">
                     Tentang LSP
                   </a>
                   <a class="dropdown-item" href="./visi-misi.html">
