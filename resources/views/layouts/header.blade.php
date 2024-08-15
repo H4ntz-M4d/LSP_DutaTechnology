@@ -60,7 +60,7 @@
                 <a class="dropdown-item" href="/sertifikasi/skkni">
                   SKKNI
                 </a>
-                <a class="dropdown-item" href="./skema-sertif.html">
+                <a class="dropdown-item" href="/sertifikasi/skema-sertifikasi">
                   Skema Sertifikasi
                 </a>
                 <a class="dropdown-item" href="./tempat-uji.html">

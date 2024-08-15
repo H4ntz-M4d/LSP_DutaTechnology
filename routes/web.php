@@ -32,17 +32,21 @@ Route::get('/sertifikasi/alur-uji-dan-skema-sertifikasi', function () {
 Route::get('/sertifikasi/skkni', function () {
     return view('sertifikasi.skkni');
 });
+
+Route::get('/sertifikasi/skema-sertifikasi', function () {
+    return view('sertifikasi.skema-sertifikasi');
+});
 // SERTIFIKASI
 
-Route::get('/informasi/berita', function () {
+Route::get('/berita', function () {
     return view('informasi.berita');
 });
 
-Route::get('/informasi/faq', function () {
+Route::get('/faq', function () {
     return view('informasi.faq');
 });
 
-Route::get('/informasi/table-kalender', function () {
+Route::get('/table-kalender', function () {
     return view('informasi.table-kalender');
 });
 
