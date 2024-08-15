@@ -34,15 +34,15 @@ Route::get('/sertifikasi/skkni', function () {
 });
 // SERTIFIKASI
 
-Route::get('/berita', function () {
+Route::get('/informasi/berita', function () {
     return view('informasi.berita');
 });
 
-Route::get('/faq', function () {
+Route::get('/informasi/faq', function () {
     return view('informasi.faq');
 });
 
-Route::get('/table-kalender', function () {
+Route::get('/informasi/table-kalender', function () {
     return view('informasi.table-kalender');
 });
 
