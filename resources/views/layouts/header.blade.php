@@ -22,104 +22,34 @@
 
             <!-- Navigation -->
             <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" id="navbarLandings"  href="/home" aria-haspopup="true" aria-expanded="false">
+                  Home
+                </a>
+              </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" id="navbarLandings" data-bs-toggle="dropdown" href="#" aria-haspopup="true" aria-expanded="false">
                   Landings
                 </a>
-                <div class="dropdown-menu dropdown-menu-xl p-0" aria-labelledby="navbarLandings">
-                  <div class="row gx-0">
-                    <div class="col-12 col-lg-6">
-                      <div class="dropdown-img-start" style="background-image: url(./assets/img/photos/photo-3.jpg);">
-
-                        <!-- Heading -->
-                        <h4 class="fw-bold text-white mb-0">
-                          Want to see an overview?
-                        </h4>
-
-                        <!-- Text -->
-                        <p class="fs-sm text-white">
-                          See all the pages at once.
-                        </p>
-
-                        <!-- Button -->
-                        <a href="./overview.html" class="btn btn-sm btn-white shadow-dark fonFt-size-sm">
-                          View all pages
-                        </a>
-
-                      </div>
-                    </div>
-                    <div class="col-12 col-lg-6">
-                      <div class="dropdown-body">
-                        <div class="row gx-0">
-                          <div class="col-6">
-
-                            <!-- Heading -->
-                            <h6 class="dropdown-header">
-                              Services
-                            </h6>
-
-                            <!-- List -->
-                            <a class="dropdown-item" href="./coworking.html">
-                              Coworking
-                            </a>
-                            <a class="dropdown-item" href="./rental.html">
-                              Rental
-                            </a>
-                            <a class="dropdown-item mb-5" href="./job.html">
-                              Job Listing
-                            </a>
-
-                            <!-- Heading -->
-                            <h6 class="dropdown-header">
-                              Apps
-                            </h6>
-
-                            <!-- List -->
-                            <a class="dropdown-item" href="./desktop-app.html">
-                              Desktop
-                            </a>
-                            <a class="dropdown-item" href="./mobile-app.html">
-                              Mobile
-                            </a>
-
-                          </div>
-                          <div class="col-6">
-
-                            <!-- Heading -->
-                            <h6 class="dropdown-header">
-                              Web
-                            </h6>
-
-                            <!-- List -->
-                            <a class="dropdown-item" href="./index.html">
-                              Basic
-                            </a>
-                            <a class="dropdown-item" href="./startup.html">
-                              Startup
-                            </a>
-                            <a class="dropdown-item" href="./enterprise.html">
-                              Enterprise
-                            </a>
-                            <a class="dropdown-item" href="./service.html">
-                              Service
-                            </a>
-                            <a class="dropdown-item" href="./cloud.html">
-                              Cloud Hosting
-                            </a>
-                            <a class="dropdown-item" href="./agency.html">
-                              Agency
-                            </a>
-                            <a class="dropdown-item" href="./framework.html">
-                              Framework
-                            </a>
-
-                          </div>
-                        </div> <!-- / .row -->
-                      </div>
-                    </div>
-                  </div> <!-- / .row -->
-                </div>
-              </li>
+                
+                <ul class="dropdown-menu" aria-labelledby="navbarProfile">
+                  <a class="dropdown-item" href="/profil/sambutan-direktur">
+                    Sambutan Direktur
+                  </a>
+                  <a class="dropdown-item" href="/profil/tentang-lsp">
+                    Tentang LSP
+                  </a>
+                  <a class="dropdown-item" href="./visi-misi.html">
+                    Visi, Misi, dan Sasaran Mutu
+                  </a>
+                  <a class="dropdown-item" href="/profil/struktur-organisasi">
+                    Struktur Organisasi
+                  </a>
+                  <a class="dropdown-item" href="/profil/ekosistem-lspta">
+                    Ekosistem LSP
+                  </a>
+                </ul>
+                
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" id="navbarPages" data-bs-toggle="dropdown" href="#" aria-haspopup="true" aria-expanded="false">
                   Pages

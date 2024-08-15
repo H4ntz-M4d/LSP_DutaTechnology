@@ -1,6 +1,6 @@
 @extends('layouts.layout')
 
-@section('title', 'Ekosistem LSPTA')
+@section('title', 'Home')
 
 @section('content')
     <!-- BANNER -->
