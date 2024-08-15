@@ -33,3 +33,23 @@ Route::get('/sertifikasi/skkni', function () {
     return view('sertifikasi.skkni');
 });
 // SERTIFIKASI
+
+Route::get('/berita', function () {
+    return view('informasi.berita');
+});
+
+Route::get('/faq', function () {
+    return view('informasi.faq');
+});
+
+Route::get('/table-kalender', function () {
+    return view('informasi.table-kalender');
+});
+
+Route::get('/login', function () {
+    return view('akun.login');
+});
+
+Route::get('/forget-password', function () {
+    return view('akun.forget-password');
+});
