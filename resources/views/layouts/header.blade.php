@@ -1,9 +1,9 @@
     <!-- NAVBAR -->
-    <nav class="navbar navbar-expand-lg bg-white">
+    <nav class="navbar navbar-expand-lg fixed-top bg-white border-bottom">
         <div class="container-fluid">
 
           <!-- Brand -->
-          <a class="navbar-brand" href="./index.html">
+          <a class="navbar-brand" href="/">
             <img src="{{ asset('assets/img/brand.svg') }}" class="navbar-brand-img" alt="...">
           </a>
 
@@ -253,108 +253,27 @@
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" id="navbarAccount" data-bs-toggle="dropdown" href="#" aria-haspopup="true" aria-expanded="false">
-                  Account
+                  Informasi
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarAccount">
-                  <li class="dropdown-item dropend">
-                    <a class="dropdown-link dropdown-toggle" data-bs-toggle="dropdown" href="#">
-                      Settings
-                    </a>
-                    <div class="dropdown-menu">
-                      <a class="dropdown-item" href="./account-general.html">
-                        General
-                      </a>
-                      <a class="dropdown-item" href="./account-security.html">
-                        Security
-                      </a>
-                      <a class="dropdown-item" href="./account-notifications.html">
-                        Notifications
-                      </a>
-                      <a class="dropdown-item" href="./billing-plans-and-payment.html">
-                        Plans & Payment
-                      </a>
-                      <a class="dropdown-item" href="./billing-users.html">
-                        Users
-                      </a>
-                    </div>
-                  </li>
-                  <li class="dropdown-item dropend">
-                    <a class="dropdown-link dropdown-toggle" data-bs-toggle="dropdown" href="#">
-                      Sign In
-                    </a>
-                    <div class="dropdown-menu">
-                      <a class="dropdown-item" href="./signin-cover.html">
-                        Side Cover
-                      </a>
-                      <a class="dropdown-item" href="./signin-illustration.html">
-                        Illustration
-                      </a>
-                      <a class="dropdown-item" href="./signin.html">
-                        Basic
-                      </a>
-                      <a class="dropdown-item" data-bs-toggle="modal" href="#modalSigninHorizontal">
-                        Modal Horizontal
-                      </a>
-                      <a class="dropdown-item" data-bs-toggle="modal" href="#modalSigninVertical">
-                        Modal Vertical
-                      </a>
-                    </div>
-                  </li>
-                  <li class="dropdown-item dropend">
-                    <a class="dropdown-link dropdown-toggle" data-bs-toggle="dropdown" href="#">
-                      Sign Up
-                    </a>
-                    <div class="dropdown-menu">
-                      <a class="dropdown-item" href="./signup-cover.html">
-                        Side Cover
-                      </a>
-                      <a class="dropdown-item" href="./signup-illustration.html">
-                        Illustration
-                      </a>
-                      <a class="dropdown-item" href="./signup.html">
-                        Basic
-                      </a>
-                      <a class="dropdown-item" data-bs-toggle="modal" href="#modalSignupHorizontal">
-                        Modal Horizontal
-                      </a>
-                      <a class="dropdown-item" data-bs-toggle="modal" href="#modalSignupVertical">
-                        Modal Vertical
-                      </a>
-                    </div>
-                  </li>
-                  <li class="dropdown-item dropend">
-                    <a class="dropdown-link dropdown-toggle" data-bs-toggle="dropdown" href="#">
-                      Password Reset
-                    </a>
-                    <div class="dropdown-menu">
-                      <a class="dropdown-item" href="./password-reset-cover.html">
-                        Side Cover
-                      </a>
-                      <a class="dropdown-item" href="./password-reset-illustration.html">
-                        Illustration
-                      </a>
-                      <a class="dropdown-item" href="./password-reset.html">
-                        Basic
-                      </a>
-                    </div>
-                  </li>
-                  <li class="dropdown-item dropend">
-                    <a class="dropdown-link dropdown-toggle" data-bs-toggle="dropdown" href="#">
-                      Error
-                    </a>
-                    <div class="dropdown-menu">
-                      <a class="dropdown-item" href="./error-cover.html">
-                        Side Cover
-                      </a>
-                      <a class="dropdown-item" href="./error-illustration.html">
-                        Illustration
-                      </a>
-                      <a class="dropdown-item" href="./error.html">
-                        Basic
-                      </a>
-                    </div>
-                  </li>
+                    <li class="dropdown-item dropend">
+                        <a class="link-underline link-underline-opacity-0" href="/berita">
+                            Berita
+                        </a>
+                    </li>
+                    <li class="dropdown-item dropend">
+                        <a class="link-underline link-underline-opacity-0" href="/table-kalender">
+                            Tabel Kalender
+                        </a>
+                    </li>
+                    <li class="dropdown-item dropend">
+                        <a class="link-underline link-underline-opacity-0" href="/faq">
+                            FAQ
+                        </a>
+                    </li>
+
                 </ul>
+
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" id="navbarDocumentation" data-bs-toggle="dropdown" href="#" aria-haspopup="true" aria-expanded="false">
@@ -439,9 +358,10 @@
             </ul>
 
             <!-- Button -->
-            <a class="navbar-btn btn btn-sm btn-primary lift ms-auto" href="https://themes.getbootstrap.com/product/landkit/" target="_blank">
-              Buy now
-            </a>
+            <a class="navbar-btn btn btn-sm btn-primary lift ms-auto"
+            href="/login" >
+            Log in
+        </a>
 
           </div>
 
