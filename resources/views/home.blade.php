@@ -35,7 +35,7 @@
         </div> <!-- / .container -->
     </section>
 
-    <!-- BRANDS -->
+    <!-- HEADER BRANDS -->
     <section class="py-6 py-md-11 border-bottom" data-aos="fade-up" data-aos-delay="100">
         <div class="container">
             <div class="row align-items-center justify-content-center">

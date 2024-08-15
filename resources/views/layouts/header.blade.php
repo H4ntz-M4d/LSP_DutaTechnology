@@ -2,7 +2,7 @@
     <nav class="navbar navbar-expand-lg bg-white">
       <div class="container">
     
-        <!-- Brand -->
+        <!-- Logo -->
         <a class="navbar-brand" href="./index.html">
           <img src="{{ asset('assets/img/illustrations/lsp_polinema.jpeg') }}" class="navbar-brand" alt="..." width="110">
         </a>
@@ -20,7 +20,7 @@
             <i class="fe fe-x"></i>
           </button>
     
-          <!-- Navigation -->
+          <!-- Navigation Bar -->
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
               <a class="nav-link" id="navbarLandings"  href="/home" aria-haspopup="true" aria-expanded="false">
